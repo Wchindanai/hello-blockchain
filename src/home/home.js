@@ -5,6 +5,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import {Button} from "reactstrap";
 import TypeOut from 'react-typeout';
+import  Spinner from 'react-spinkit';
 import "./home.css";
 
 
@@ -15,18 +16,23 @@ export default class Home extends React.Component {
         super(props);
         this.state = {
             renderType: false,
-            text: ""
+            loaded: false
         };
-        this.onHeaderTyped = this.onHeaderTyped.bind(this);
     }
 
-    onHeaderTyped() {
-        this.setState({
-            renderType: true
-        });
+    componentDidMount() {
+        setTimeout(() => this.setState({ loaded: true }), 1500);
+
     }
 
     render() {
+        if (this.state.loaded === false) {
+            return (
+                <div style={{marginTop:'25%', marginLeft:'50%'}}>
+                    <Spinner spinnerName='double-bounce'/>
+                </div>
+            );
+        }
         const style = {
             colorBG: {
                 backgroundColor: 'black',
