@@ -12,3 +12,14 @@
 .cardTitle {
   color: darkcyan;
   font-size: 40px; }
+
+.example-appear {
+  opacity: 0.01; }
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in; }
+
+.modalClass {
+  width: 50%;
+  height: 50%; }

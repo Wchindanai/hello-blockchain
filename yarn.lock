@@ -68,6 +68,10 @@ amdefine@>=0.0.4:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
 
+animation-frame@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/animation-frame/-/animation-frame-0.3.0.tgz#3bb3f446ba53da38bba345582f435be3ab8aee29"
+
 ansi-escapes@^1.1.0, ansi-escapes@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/ansi-escapes/-/ansi-escapes-1.4.0.tgz#d3a8a83b319aa67793662b13e761c7911422306e"
@@ -2054,7 +2058,7 @@ eventemitter3@1.x.x:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-1.2.0.tgz#1c86991d816ad1e504750e73874224ecf3bec508"
 
-events@^1.0.0:
+events@^1.0.0, events@^1.0.2:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/events/-/events-1.1.1.tgz#9ebdb7635ad099c70dcc4c2a1f5004288e8bd924"
 
@@ -2290,7 +2294,7 @@ for-own@^0.1.4:
   dependencies:
     for-in "^1.0.1"
 
-foreach@^2.0.5:
+foreach@^2.0.5, foreach@~2.0.4:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/foreach/-/foreach-2.0.5.tgz#0bee005018aeb260d0a3af3ae658dd0136ec1b99"
 
@@ -2359,6 +2363,12 @@ fstream@^1.0.0, fstream@^1.0.10, fstream@^1.0.2:
 function-bind@^1.0.2, function-bind@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.0.tgz#16176714c801798e4e8f2cf7f7529467bb4a5771"
+
+functional-easing@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/functional-easing/-/functional-easing-1.0.8.tgz#666f4e4a0d9d1a5640d4cfce490dddfd97c487b8"
+  dependencies:
+    gm-is "~1.2.2"
 
 gauge@~2.7.3:
   version "2.7.4"
@@ -2460,6 +2470,12 @@ globule@^1.0.0:
     lodash "~4.16.4"
     minimatch "~3.0.2"
 
+gm-is@~1.2.2:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/gm-is/-/gm-is-1.2.4.tgz#ec1fd4a864ff8fd6ec1e9f44425950f2e05b0464"
+  dependencies:
+    foreach "~2.0.4"
+
 graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.1.9:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
@@ -2471,6 +2487,10 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.1.9:
 growly@^1.2.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/growly/-/growly-1.3.0.tgz#f10748cbe76af964b7c96c93c6bcc28af120c081"
+
+gsap@^1.16.1:
+  version "1.19.1"
+  resolved "https://registry.yarnpkg.com/gsap/-/gsap-1.19.1.tgz#480d320c662337c2663f836baf45e91ea024b553"
 
 gzip-size@3.0.0:
   version "3.0.0"
@@ -3203,7 +3223,7 @@ jodid25519@^1.0.0:
   dependencies:
     jsbn "~0.1.0"
 
-jquery@>=1.9.1:
+jquery@>=1.9.1, jquery@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.2.1.tgz#5c4d9de652af6cd0a770154a631bba12b015c787"
 
@@ -3490,6 +3510,10 @@ lodash.pickby@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash.pickby/-/lodash.pickby-4.6.0.tgz#7dea21d8c18d7703a27c704c15d3b84a67e33aff"
 
+lodash.throttle@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
+
 lodash.tonumber@^4.0.3:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/lodash.tonumber/-/lodash.tonumber-4.0.3.tgz#0b96b31b35672793eb7f5a63ee791f1b9e9025d9"
@@ -3498,7 +3522,7 @@ lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
-"lodash@>=3.5 <5", lodash@^4.0.0, lodash@^4.14.0, lodash@^4.15.0, lodash@^4.16.4, lodash@^4.17.2, lodash@^4.2.0, lodash@^4.3.0:
+"lodash@>=3.5 <5", lodash@^4.0.0, lodash@^4.11.0, lodash@^4.14.0, lodash@^4.15.0, lodash@^4.16.4, lodash@^4.17.2, lodash@^4.2.0, lodash@^4.3.0:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
@@ -4596,6 +4620,12 @@ react-fontawesome@^1.6.1:
   dependencies:
     prop-types "^15.5.6"
 
+react-imation@latest:
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/react-imation/-/react-imation-0.5.3.tgz#61478ae167812849ae3bf91ed72e24d4970e0c15"
+  dependencies:
+    raf "^3.1.0"
+
 react-router-dom@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-4.1.1.tgz#3021ade1f2c160af97cf94e25594c5f294583025"
@@ -4662,12 +4692,38 @@ react-scripts@0.9.5:
   optionalDependencies:
     fsevents "1.0.17"
 
+react-scroll-effects@^1.0.12:
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/react-scroll-effects/-/react-scroll-effects-1.0.12.tgz#d0d9aee379862cf31080cb084706282e667fb920"
+  dependencies:
+    lodash.throttle "^4.1.1"
+
 react-scroll@^1.5.2:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/react-scroll/-/react-scroll-1.5.2.tgz#f10f14840d3138a121d2c0f04933bbfee4193975"
   dependencies:
     object-assign "^4.1.1"
     prop-types "^15.5.8"
+
+react-spark-scroll-gsap@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/react-spark-scroll-gsap/-/react-spark-scroll-gsap-3.0.2.tgz#5b0374c584d38d63aa238be1a0ad7ffb43c46399"
+  dependencies:
+    animation-frame "^0.3.0"
+    events "^1.0.2"
+    gsap "^1.16.1"
+    lodash "^4.11.0"
+    object-assign "^2.0.0"
+    react-spark-scroll "^3.0.2"
+
+react-spark-scroll@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/react-spark-scroll/-/react-spark-scroll-3.0.2.tgz#7ff2915e63c9ef055a58497209a34c44a78abdc5"
+  dependencies:
+    animation-frame "^0.3.0"
+    events "^1.0.2"
+    lodash "^4.11.0"
+    object-assign "^2.0.0"
 
 react-spinkit@^2.1.2:
   version "2.1.2"
