@@ -53,8 +53,8 @@ export default class Landing extends React.Component {
                     {/*Section2*/}
 
                     {/*Section3*/}
-                    <section id="section3" style={style.section} duration={1}>
-                        <ScrollEffect animate="fadeInUp">
+                    <section id="section3" style={style.section} >
+                        <ScrollEffect animate="fadeInUp" duration={1}>
                         <Section3/>
                         </ScrollEffect>
                     </section>
