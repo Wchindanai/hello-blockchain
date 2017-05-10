@@ -21,7 +21,6 @@ class Section4 extends React.Component {
                         </span>
 
                         </CardTitle>
-                        <CardText>
                             <div>
                                 <FontAwesome name="mobile" tag="i" size="2x"/>
                                 <span>  Mobile : 0830071767  </span>
@@ -52,7 +51,6 @@ class Section4 extends React.Component {
                                     </li>
                                 </ul>
                             </div>
-                        </CardText>
                     </div>
                 </CardBlock>
             </Card>

@@ -20,10 +20,8 @@ const Section3 = () => {
                 <CardTitle className="text-center cardTitle">Blockchain สามารถนำไปใช้อะไรได้บ้าง</CardTitle>
                 <CardText className="text-center p-3 fontKanit">
                     {text}
-                    <div>
                         <img src="http://www.playersmoney.com/wp-content/uploads/2016/02/blockchain.jpg"
-                             style={{marginTop: "10px"}} alt=""/>
-                    </div>
+                             style={{marginTop: "10px"}}/>
                 </CardText>
             </CardBlock>
         </Card>
