@@ -92,6 +92,11 @@ export default class Navigation extends React.Component {
                                         Playersmoney
                                     </a>
                                 </li>
+                                <li>
+                                    <a href="http://siamblockchain.com/2016/12/29/startup-uses-blockchain-crackdown-wine-fraud/">
+                                        siamblockchain
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </ModalBody>
