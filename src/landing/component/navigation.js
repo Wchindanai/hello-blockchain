@@ -35,7 +35,7 @@ export default class Navigation extends React.Component {
         return (
             <div><Navbar color="faded" light toggleable fixed="bottom">
                 <NavbarToggler right onClick={this.toggle}/>
-                <NavbarBrand href="javascript:void(0)">
+                <NavbarBrand href="/">
                     <img style={{width: 70}} src="/logo.png"/>
                     <span>Hello Blockchain</span>
                 </NavbarBrand>
