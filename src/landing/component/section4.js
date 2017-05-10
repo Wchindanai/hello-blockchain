@@ -12,7 +12,7 @@ class Section4 extends React.Component {
                 <CardHeader>About Me</CardHeader>
                 <CardBlock>
                     <div className="d-inline-block" style={{width: "50%"}}>
-                        <img src="/img/profile.jpg" width={"350px"} alt=""/>
+                        <img src="/img/profile.jpg" width={"350px"} />
                     </div>
                     <div className="d-inline-block">
                         <CardTitle>

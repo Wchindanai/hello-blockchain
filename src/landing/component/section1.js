@@ -17,7 +17,7 @@ const Section1 = () => {
             <CardHeader>What is Blockchain ?</CardHeader>
             <CardBlock>
                 <CardTitle className="text-center cardTitle">Blockchain คืออะไร ?</CardTitle>
-                <CardText className="text-center p-3 fontKanit">
+                <CardText className="text-center p-4 fontKanit">
                     {text}
                     <img src="https://techsauce.co/wp-content/uploads/2016/04/blockchain.png" style={{marginTop:"10px"}}/>
                 </CardText>
