@@ -4,3 +4,7 @@ Name is Hello Blockchain
 
 Tools:
 - ReactJS
+
+How to install
+- yarn install Or npm install
+- yarn start Or npm start
