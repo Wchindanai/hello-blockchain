@@ -20,7 +20,9 @@ const Section2 = () => {
                 <CardTitle className="text-center cardTitle">Blockchain ทำงานอย่างไร</CardTitle>
                 <CardText className="text-center p-3 fontKanit">
                     {text}
-                    <img src="http://thaipublica.org/wp-content/uploads/2016/07/blockchain.png" style={{marginTop:"10px"}} alt=""/>
+                    <div>
+                        <img src="http://thaipublica.org/wp-content/uploads/2016/07/blockchain.png" style={{marginTop:"10px"}} alt=""/>
+                    </div>
                 </CardText>
             </CardBlock>
         </Card>

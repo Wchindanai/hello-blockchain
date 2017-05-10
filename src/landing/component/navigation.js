@@ -42,13 +42,13 @@ export default class Navigation extends React.Component {
                 <Collapse isOpen={this.state.isOpen} navbar>
                     <Nav className="" navbar>
                         <NavItem>
-                            <NavLink href="#section1">What is Blockchain?</NavLink>
+                            <NavLink href="#section1" style={{padding: "16px"}}>What is Blockchain?</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#section2">How Blockchain do?</NavLink>
+                            <NavLink href="#section2" style={{padding: "16px"}}>How Blockchain do?</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#section3">What Blockchain can do?</NavLink>
+                            <NavLink href="#section3" style={{padding: "16px"}}>What Blockchain can do?</NavLink>
                         </NavItem>
                         <NavLink>
                             <NavLink href="#section4">About Me</NavLink>

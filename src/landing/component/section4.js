@@ -28,7 +28,7 @@ class Section4 extends React.Component {
                             </div>
                             <div>
                                 <FontAwesome name="envelope" tag="i" style={{fontSize: "20px"}}/>
-                                <span>  Email: dn.chindanai@gmail.com</span>
+                                <span><a href="mailto:dn.chindanai@gmail.com"> Email: dn.chindanai@gmail.com</a></span>
                             </div>
                             <div>
                                 <FontAwesome name="puzzle-piece" tag="i" style={{fontSize: "20px"}}/>
