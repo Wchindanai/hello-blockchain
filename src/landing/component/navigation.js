@@ -51,6 +51,9 @@ export default class Navigation extends React.Component {
                             <NavLink href="#section3" style={{padding: "16px"}}>What Blockchain can do?</NavLink>
                         </NavItem>
                         <NavLink>
+                            <NavLink href="#myIdea">My Idea</NavLink>
+                        </NavLink>
+                        <NavLink>
                             <NavLink href="#section4">About Me</NavLink>
                         </NavLink>
                         <NavLink>
