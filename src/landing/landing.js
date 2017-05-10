@@ -12,28 +12,6 @@ import Section4 from "./component/section4";
 import ScrollEffect from 'react-scroll-effects';
 
 export default class Landing extends React.Component {
-    constructor() {
-        super();
-        this.state = {
-            scrollTop: 0
-        };
-        this.handleScroll = this.handleScroll.bind(this);
-    }
-
-    componentWillMount() {
-        window.addEventListener('scroll', this.handleScroll);
-    }
-
-    componentWillUnmount() {
-        window.removeEventListener('scroll', this.handleScroll);
-    }
-
-    handleScroll() {
-        const doc = document.documentElement;
-        const top = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
-        this.setState({scrollTop: top});
-    }
-
     render() {
         const style = {
             colorBG: {
