@@ -69,7 +69,7 @@ export default class Home extends React.Component {
 
             }
         };
-        let words = ["World ! ", 'Blockchain ! ', 'Bitcoin ! '];
+        let words = ["World  ", 'Blockchain  ', 'Bitcoin  '];
         return (
             <div className="container-fluid" style={style.colorBG}>
                 <div style={style.imageBG}>
@@ -77,7 +77,7 @@ export default class Home extends React.Component {
                         <div style={{marginLeft: '28%', height: '100px'}}>
                             <div className="divType">
                                 <span style={{color: 'white', fontSize: '80px'}}>Hello </span>
-                                <TypeWriter typing={this.state.typing} onTypingEnd={this.onTyed} maxDelay={500}
+                                <TypeWriter typing={this.state.typing} onTypingEnd={this.onTyed} maxDelay={200}
                                             minDelay={50}>
                                     <span className="react-typing">{words[this.state.wordIndex]}</span>
                                 </TypeWriter>

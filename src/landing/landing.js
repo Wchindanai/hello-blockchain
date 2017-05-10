@@ -8,6 +8,7 @@ import Section1 from './component/section1';
 import Section2 from './component/section2';
 import Section3 from './component/section3';
 import Navigation from './component/navigation';
+import Section4 from "./component/section4";
 
 
 
@@ -32,7 +33,7 @@ export default class Landing extends React.Component {
                 backgroundColor: 'darkcyan'
             },
             section4:{
-                height:"100%",
+                height:"100vh",
                 backgroundColor: 'darkcyan'
             }
         };
@@ -68,7 +69,7 @@ export default class Landing extends React.Component {
 
                     {/*Section4*/}
                     <section id="section4" style={style.section4}>
-
+                        <Section4/>
                     </section>
                     {/*Section4*/}
                 </div>
