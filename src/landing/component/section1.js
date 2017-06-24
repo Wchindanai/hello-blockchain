@@ -13,16 +13,16 @@ const Section1 = () => {
         "เป็นคนไม่ดีเราก็จะได้รับความเสี่ยงนั้น แต่ Blockchain นั้น ไม่จำเป็นต้องอาศัยคนกลางในการทำงาน ทีนี้การใช้งาน" +
         "ทางด้านธุรกรรมออนไลน์ใดๆ จะสะดวก ประหยัด และรวดเร็วมากขึ้น";
     return (
-            <Card>
-                <CardHeader>What is Blockchain ?</CardHeader>
-                <CardBlock>
-                    <CardTitle className="text-center cardTitle">Blockchain คืออะไร ?</CardTitle>
-                    <CardText className="text-center p-3 fontKanit">
-                        {text}
-                        <img src="https://techsauce.co/wp-content/uploads/2016/04/blockchain.png"  alt=""/>
-                    </CardText>
-                </CardBlock>
-            </Card>
+        <Card>
+            <CardHeader>What is Blockchain ?</CardHeader>
+            <CardBlock>
+                <CardTitle className="text-center cardTitle">Blockchain คืออะไร ?</CardTitle>
+                <CardText className="text-center p-4 fontKanit">
+                    {text}
+                    <img src="https://techsauce.co/wp-content/uploads/2016/04/blockchain.png" style={{marginTop:"10px"}}/>
+                </CardText>
+            </CardBlock>
+        </Card>
     );
 };
 export default Section1;

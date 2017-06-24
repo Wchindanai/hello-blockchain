@@ -39,7 +39,7 @@ export default class Home extends React.Component {
     }
 
     componentDidMount() {
-        setTimeout(() => this.setState({loaded: true}));
+        setTimeout(() => this.setState({loaded: true}),500);
     }
 
     componentWillUnmount() {

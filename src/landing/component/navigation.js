@@ -35,21 +35,24 @@ export default class Navigation extends React.Component {
         return (
             <div><Navbar color="faded" light toggleable fixed="bottom">
                 <NavbarToggler right onClick={this.toggle}/>
-                <NavbarBrand href="javascript:void(0)">
+                <NavbarBrand href="/">
                     <img style={{width: 70}} src="/logo.png"/>
                     <span>Hello Blockchain</span>
                 </NavbarBrand>
                 <Collapse isOpen={this.state.isOpen} navbar>
                     <Nav className="" navbar>
                         <NavItem>
-                            <NavLink href="#section1">What is Blockchain?</NavLink>
+                            <NavLink href="#section1" style={{padding: "16px"}}>What is Blockchain?</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#section2">How Blockchain do?</NavLink>
+                            <NavLink href="#section2" style={{padding: "16px"}}>How Blockchain do?</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#section3">What Blockchain can do?</NavLink>
+                            <NavLink href="#section3" style={{padding: "16px"}}>What Blockchain can do?</NavLink>
                         </NavItem>
+                        <NavLink>
+                            <NavLink href="#myIdea">My Idea</NavLink>
+                        </NavLink>
                         <NavLink>
                             <NavLink href="#section4">About Me</NavLink>
                         </NavLink>
@@ -90,6 +93,11 @@ export default class Navigation extends React.Component {
                                 <li>
                                     <a href="http://www.playersmoney.com/wp-content/uploads/2016/02/blockchain.jpg">
                                         Playersmoney
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://siamblockchain.com/2016/12/29/startup-uses-blockchain-crackdown-wine-fraud/">
+                                        siamblockchain
                                     </a>
                                 </li>
                             </ul>

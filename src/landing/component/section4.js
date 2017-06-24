@@ -12,7 +12,7 @@ class Section4 extends React.Component {
                 <CardHeader>About Me</CardHeader>
                 <CardBlock>
                     <div className="d-inline-block" style={{width: "50%"}}>
-                        <img src="/img/profile.jpg" width={"350px"} alt=""/>
+                        <img src="/img/profile.jpg" width={"350px"} />
                     </div>
                     <div className="d-inline-block">
                         <CardTitle>
@@ -21,14 +21,13 @@ class Section4 extends React.Component {
                         </span>
 
                         </CardTitle>
-                        <CardText>
                             <div>
                                 <FontAwesome name="mobile" tag="i" size="2x"/>
                                 <span>  Mobile : 0830071767  </span>
                             </div>
                             <div>
                                 <FontAwesome name="envelope" tag="i" style={{fontSize: "20px"}}/>
-                                <span>  Email: dn.chindanai@gmail.com</span>
+                                <span><a href="mailto:dn.chindanai@gmail.com"> Email: dn.chindanai@gmail.com</a></span>
                             </div>
                             <div>
                                 <FontAwesome name="puzzle-piece" tag="i" style={{fontSize: "20px"}}/>
@@ -52,7 +51,6 @@ class Section4 extends React.Component {
                                     </li>
                                 </ul>
                             </div>
-                        </CardText>
                     </div>
                 </CardBlock>
             </Card>
